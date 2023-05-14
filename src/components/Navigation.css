@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    gap: 15px;
+}
+
+.links{
+    background-color: aquamarine;
+    padding: 0px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #272727;
+}
+
+.links:hover{
+    background-color: beige;
+}
