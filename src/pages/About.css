@@ -1,0 +1,27 @@
+body{
+    --nav-load-time:600ms;
+    --about-me-load-delay:calc(var(--nav-load-time)) + 200ms;
+}
+
+
+
+.aboutMe{
+    padding:30px;
+    animation:about-me-load 600ms ease-in;
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity:0;
+    background-color: #010213;
+    color:#0A9DAE ;
+}
+
+@keyframes about-me-load {
+0%{
+ transform: translateY(-20px);
+ opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}

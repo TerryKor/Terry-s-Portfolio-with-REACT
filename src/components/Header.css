@@ -1,6 +1,27 @@
+body{
+    --nav-load-time:600ms
+}
+
+.name{
+    color:#0A9DAE ;
+}
+
 header{
     display: flex;
     padding: 0px 20px;
     justify-content: space-between;
     align-items: center;
+    background-color: #010213;
+    animation: nav-load var(--nav-load-time) ease-in;
+    animation-duration: 300ms;
+}
+@keyframes nav-load {
+    0% {
+            transform: translateY(-100%);
+    }
+    100%{
+
+        transform: translateY(0);
+
+    }
 }

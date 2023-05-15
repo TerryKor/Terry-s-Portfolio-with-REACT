@@ -1,16 +1,126 @@
-nav{
-    display: flex;
-    gap: 15px;
+body{
+    --nav-load-time:600ms
 }
 
-.links{
-    background-color: aquamarine;
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+.link1 {
+  padding: 0px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0a9dae;
+  font-size: large;
+  animation-name: nav-link1-load;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+.links:hover {
+  background-color: beige;
+}
+
+@keyframes nav-link1-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.link2 {
+  padding: 0px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0a9dae;
+  font-size: large;
+  animation-name: nav-link2-load;
+  animation-duration: 400ms;
+  animation-timing-function: ease-in;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+.links:hover {
+  background-color: beige;
+}
+
+@keyframes nav-link2-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+ 
+}
+
+.link3 {
     padding: 0px 30px;
     border-radius: 10px;
     text-decoration: none;
-    color: #272727;
-}
-
-.links:hover{
+    color: #0a9dae;
+    font-size: large;
+    animation-name: nav-link3-load;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in;
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+  }
+  
+  .links:hover {
     background-color: beige;
-}
+  }
+  
+  @keyframes nav-link3-load {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  
+   
+  }
+
+  .link4 {
+    padding: 0px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0a9dae;
+    font-size: large;
+    animation-name: nav-link4-load;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
+    transform: scale(0);
+  }
+  
+  .links:hover {
+    background-color: beige;
+  }
+  
+  @keyframes nav-link4-load {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  
+   
+  }
