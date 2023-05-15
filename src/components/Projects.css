@@ -1,0 +1,80 @@
+.card{
+    height: 300px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: relative;
+}
+
+.projectImages{
+    height: 300px;
+    width: 300px;
+    border-radius: 3px;
+    object-fit: fill;
+}
+
+.content{
+    top: 0;
+    opacity: 0;
+    z-index: 10;
+    height: 300px;
+    width: 300px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-bottom: 10px;
+    background: rgb(27,27,27,0.5);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3{
+    margin: 0;
+    margin: 15px 0px;
+}
+
+.content img{
+
+    width: 40px;
+    object-fit: contain;
+}
+
+.content a:hover {
+    cursor: pointer;
+}
+
+.content p{
+    margin: 0;
+    margin: 10px 0px;
+    transition: 0.3s ease-in-out;
+    visibility: visible;
+    opacity: 0;
+}
+
+.card:hover .content{
+    opacity: 1;
+}
+
+.card:hover .content p{
+    visibility: visible;
+    transition-delay: 0.2s;
+    opacity: 1;
+}
+
+.projectLink{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+
+}
+.card:hover .content .projectLink{
+    visibility: visible;
+    transition-delay: 0.3s;
+    opacity: 1;
+}

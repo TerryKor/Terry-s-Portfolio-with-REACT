@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css"
-import github from "../assets/images/github.png";
+import github from "../assets/images/github9.png";
 import twitter from "../assets/images/twitter.png";
 import linkedin from "../assets/images/linkedin.png";
 function Footer(){
