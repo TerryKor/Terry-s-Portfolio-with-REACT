@@ -3,17 +3,48 @@ body{
     --about-me-load-delay:calc(var(--nav-load-time)) + 200ms;
 }
 
-
+.sectionAboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 50vh;
+    padding: 2% 3% 5% 2%;
+    margin: 0 10% 0 10%;
+    /* background-color: azure; */
+}
 
 .aboutMe{
-    padding:30px;
+    padding:1% 5%;
     animation:about-me-load 600ms ease-in;
     animation-fill-mode: forwards;
     transform: translateY(-20px);
     opacity:0;
     background-color: #010213;
-    color:#0A9DAE ;
+    color:#c8d6ea ;
+    /* color:white ; */
 }
+span{
+    color:#0A9DAE
+}
+.aboutMe h3 {
+    font-size: 50rem;
+    font-weight: 100;
+}
+
+/* .homeAboutMe{
+    margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+} */
+#myPicture {
+    height: 550px;
+    width: 270px;
+    border-radius: 50px;
+    /* margin-left: 5%; */
+  }
 
 @keyframes about-me-load {
 0%{
