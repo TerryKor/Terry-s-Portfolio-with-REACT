@@ -2,6 +2,11 @@ import React from "react";
 import "./Portfolio.css";
 import Project from "../components/Projects";
 import techblog from "../assets/images/techblog.png";
+import jate from "../assets/images/jate.png";
+import noteTaker from "../assets/images/noteTaker.png";
+import teamProfileGenerator from "../assets/images/teamProfileGenerator.png";
+import weatherForecast from "../assets/images/weatherforecast.png";
+import ticketMasterEventPlaner from "../assets/images/ticketMasterEvantPlanner.png";
 
 
 function Projects() {
@@ -11,22 +16,21 @@ function Projects() {
       image = {techblog}
       title="My new tile" subtitle="some title some some title end" />
       <Project 
-      image = {techblog}
+      image = {jate}
       title="My new tile" subtitle="some title some some title end" />
       <Project 
-      image = {techblog}
+      image = {noteTaker}
       title="My new tile" subtitle="some title some some title end" />
       <Project 
-      image = {techblog}
+      image = {teamProfileGenerator}
       title="My new tile" subtitle="some title some some title end" />
       <Project 
-      image = {techblog}
+      image = {weatherForecast}
       title="My new tile" subtitle="some title some some title end" />
       <Project 
-      image = {techblog}
+      image = {ticketMasterEventPlaner}
       title="My new tile" subtitle="some title some some title end" />
-      {/* <Project title="My  tile" subtitle="subtitle2" />
-      <Project title="My " subtitle="subtitle3" /> */}
+
     </div>
   );
 }

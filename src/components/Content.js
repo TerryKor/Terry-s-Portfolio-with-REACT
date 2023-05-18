@@ -3,7 +3,7 @@ import "./Content.css";
 
 function Content() {
   return (
- 
+
       <div className="contactPage">
         <div className="wrap">
           <h1 className="ContactH1">
@@ -29,7 +29,7 @@ function Content() {
           </div>
         </div>
       </div>
-  
+
   );
 }
 
