@@ -6,9 +6,9 @@ function Footer(){
     return(
         <footer>
             <div className="socialLinks">
-            <a href="https://github.com/TerryKor"><i class='bx bxl-github' ></i></a>
-            <a href="https://www.linkedin.com/in/terentiy-kornienko-114302b7/"><i class='bx bxl-linkedin' ></i></a>
-            <a href="https://www.facebook.com/gordon.freemann.1"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://github.com/TerryKor"><i className='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/terentiy-kornienko-114302b7/"><i className='bx bxl-linkedin' ></i></a>
+            <a href="https://www.facebook.com/gordon.freemann.1"><i className='bx bxl-facebook' ></i></a>
                   
                      
             </div>
