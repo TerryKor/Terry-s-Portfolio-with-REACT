@@ -1,5 +1,39 @@
-.node{
-    background: rgba(0, 0, 0, 0);
-    height: 200px;
-    width: 220px;
+.node {
+  background: rgba(0, 0, 0, 0);
+  height: 200px;
+  width: 220px;
+}
+.resumePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+
+.downloadLink {
+  width: fit-content;
+  text-decoration: none;
+  color: #0a9dae;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #0a9dae;
+  border-radius: 40px;
+  padding: 5px 50px;
+  transition: 0.2s ease-in-out;
+}
+.downloadLink:hover {
+  background-color: #0a9dae;
+  box-shadow: 0 0 1rem #0a9dae;
+
+  color: #010213;
+}
+.downloadLink > i {
+  font-size: 40px;
+}
+
+.logoWrappers{
+    display: flex;
+    gap: 20px;
 }
