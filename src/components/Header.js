@@ -1,10 +1,11 @@
 import React from "react";
 import "./Header.css"
 import Navigation from "./Navigation";
+import logo from "../assets/images/logo.png"
 function Header(){
     return(
         <header>
-            <h1 className="name">Portfolio</h1>
+            <img src={logo} alt="logo" className="logo"/>
             <Navigation/>
         </header>
     )

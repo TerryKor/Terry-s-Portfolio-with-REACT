@@ -19,6 +19,7 @@ footer {
   /* animation-delay: 600ms; */
   animation-fill-mode: forwards;
   transform: scale(0);
+  bottom: 10px;
 }
 .socialLinks a {
   /* display: flex;

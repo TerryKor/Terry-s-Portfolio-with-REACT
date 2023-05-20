@@ -57,6 +57,7 @@ function Contact() {
           <form>
             <p>Hello Terry,</p>
             <label htmlFor="message"> Your message</label>
+            <label htmlFor="message" className="error">{errorString.split('\n')[2]}</label>
             <textarea
               onChange={handleInputChange}
               name="message"
@@ -66,6 +67,7 @@ function Contact() {
             ></textarea>
             <p>Best,</p>
             <label htmlFor="name">Name:</label>
+            <label className="error">{errorString.split('\n')[0]}</label>
             <input
               onChange={handleInputChange}
               type="text"
@@ -74,7 +76,10 @@ function Contact() {
               value={username}
               id="name"
             ></input>
-            <label htmlFor="email">Email:</label>
+           <div className="labelWrap">
+           <label htmlFor="email">Email:</label>
+            <label htmlFor="email" className="error">{errorString.split('\n')[1]}</label>
+           </div>
             <input
               onChange={handleInputChange}
               type="text"
@@ -86,7 +91,6 @@ function Contact() {
             <input type="submit" name="email" value={"Send"} id="email"></input>
           </form>
         </div>
-        <div className="error">{errorString}</div>
       </div>
     </div>
   );

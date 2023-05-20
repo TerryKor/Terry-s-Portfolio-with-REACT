@@ -14,13 +14,18 @@ section{
     width: 100%;
 }
  */
- contactPage {
+ .contactPage {
     /* background-color: aliceblue; */
    /* position: relative;
    align-items: center; */
     color: black;
     font-family: tahoma;
     align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+   
   }
   
   p {
@@ -40,12 +45,14 @@ section{
     padding: 0;
     border: 0;
     outline: none;
+    white-space:pre-wrap;
   }
   
   .wrap {
+    align-self: center;
     width: 530px;
     margin: 20px auto 0;
-    height: 1000px;
+    height: 70vh;
   }
   
   .ContactH1 {
@@ -88,7 +95,7 @@ section{
   }
   
   .formWrap:hover {
-    height: 777px;
+    height: 800px;
     top: -200px;
   }
   
@@ -106,9 +113,7 @@ section{
     transition: all 1s ease-in-out 0.3s;
   }
   
-  .error{
-    color: red;
-  }
+
   .formWrap:hover form {
     height: 530px;
   }
@@ -160,4 +165,18 @@ section{
     z-index: 1;
     opacity: 1;
     transition: opacity 0.5s ease-in 1.3s;
+  }
+
+  .error{
+    color: red;
+    font-size: 10px;
+    width: 100%;
+    margin-left: 0;
+    font-weight: 500;
+    letter-spacing: 3px;
+  }
+
+  .labelWrap{
+    display: flex;
+    flex-direction: row;
   }
