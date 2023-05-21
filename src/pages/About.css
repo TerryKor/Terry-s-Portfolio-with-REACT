@@ -1,58 +1,129 @@
-body{
-    --nav-load-time:600ms;
-    --about-me-load-delay:calc(var(--nav-load-time)) + 200ms;
+body {
+  --nav-load-time: 600ms;
+  --about-me-load-delay: calc(var(--nav-load-time)) + 200ms;
 }
 
-.sectionAboutMe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    min-height: 50vh;
-    padding: 2% 3% 5% 2%;
-    margin: 0 10% 0 10%;
-    /* background-color: azure; */
+.sectionAboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 50vh;
+  padding: 2% 3% 5% 2%;
+  margin: 0 10% 0 10%;
 }
 
-.aboutMe{
-    padding:1% 5%;
-    animation:about-me-load 600ms ease-in;
-    animation-fill-mode: forwards;
-    transform: translateY(-20px);
-    opacity:0;
-    background-color: #010213;
-    color:#c8d6ea ;
-    /* color:white ; */
+.aboutMe {
+  padding: 1% 5%;
+  animation: about-me-load 600ms ease-in;
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
+  color: #c8d6ea;
 }
-span{
-    color:#0A9DAE
+span {
+  color: #0a9dae;
 }
 .aboutMe h3 {
-    font-size: 50rem;
-    font-weight: 100;
+  font-size: 50rem;
+  font-weight: 100;
 }
 
-/* .homeAboutMe{
-    margin: 25px 50px 75px 100px;
-top margin is 25px
-right margin is 50px
-bottom margin is 75px
-left margin is 100px
-} */
 #myPicture {
-    height: 550px;
-    width: 290px;
-    border-radius: 50px;
-    /* margin-left: 5%; */
+  height: 550px;
+  width: 290px;
+  border-radius: 50px;
+}
+
+.aboutMe {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+/* .borderAnimation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  border: 3px solid transparent;
+  border-radius: 5px;
+  animation: gradientAnimation 4s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    border-image: linear-gradient(to right, #ff9a9e, #fad0c4);
   }
+  50% {
+    border-image: linear-gradient(to right, #a18cd1, #fbc2eb);
+  }
+  100% {
+    border-image: linear-gradient(to right, #ff9a9e, #fad0c4);
+  }
+} */
+
 
 @keyframes about-me-load {
-0%{
- transform: translateY(-20px);
- opacity: 0;
-}
-100%{
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
     transform: translateY(0px);
     opacity: 1;
+  }
 }
+
+
+
+.myBlock{
+  position: relative;
+  width: 42vw;
+  border-radius: 18px;
+  height: 400px;
+  margin: 10px auto 0;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.myGlow::before,
+.myGlow::after{
+  content: "";
+position: absolute;
+left: -2px;
+top: -2px;
+border-radius: 18px;
+background: linear-gradient(
+  -45deg,
+  #0a9dae,
+  #0aae1d,
+  #d00eb9,
+  #e61c0a,
+  #0606dd,
+  #1cd5ea
+);
+background-size: 400%;
+height:calc(100% + 5px);
+width: calc(100% + 5px);
+z-index: -1;
+animation: change 40s linear infinite;
+}
+
+@keyframes change{
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
+.myGlow::after{
+  filter: blur(40px);
+  opacity: .5;
 }

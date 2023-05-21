@@ -56,7 +56,7 @@ function Contact() {
         <div className="formWrap">
           <form>
             <p>Hello Terry,</p>
-            <label htmlFor="message"> Your message</label>
+            <label htmlFor="message"> Your message:</label>
             <label htmlFor="message" className="error">{errorString.split('\n')[2]}</label>
             <textarea
               onChange={handleInputChange}

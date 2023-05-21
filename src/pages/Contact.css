@@ -1,23 +1,6 @@
-/* *{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
 
-
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-    width: 100%;
-}
- */
  .contactPage {
-    /* background-color: aliceblue; */
-   /* position: relative;
-   align-items: center; */
+  
     color: black;
     font-family: tahoma;
     align-self: center;
@@ -46,6 +29,7 @@ section{
     border: 0;
     outline: none;
     white-space:pre-wrap;
+    /* font-family: Bradley Hand, cursive; */
   }
   
   .wrap {
@@ -100,7 +84,7 @@ section{
   }
   
   form {
-    background:#f0ebd1;
+    background:#f8f8f8;
     position: relative;
     top: 200px;
     overflow: hidden;
@@ -111,6 +95,8 @@ section{
     border: 1px solid white;
     border-right: 3px;
     transition: all 1s ease-in-out 0.3s;
+    /* font-family: ; */
+  
   }
   
 
@@ -136,6 +122,8 @@ section{
     margin: 0 0 10px 0;
     border: 1px solid #f8f5f1;
     border-radius: 5px;
+    font-size: 1asrem;
+    /* font-family: Bradley Hand, cursive; */
   }
   
   textarea {

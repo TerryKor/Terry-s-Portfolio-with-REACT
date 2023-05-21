@@ -13,15 +13,13 @@ function About() {
           <TypeAnimation
             sequence={[
                 1000,
-              "Web Developer", // Types 'One'
-              1000, // Waits 1s
+              "Web Developer",
+              1000, 
               "Crypto Enthusiast",
               1000,
               "Traveller",
               1000,
-              () => {
-                
-              },
+             
             ]}
             speed={{type:"keyStrokeDelayInMs", value:100}}
             wrapper="span"
@@ -41,16 +39,19 @@ function About() {
           portfolio.
         </p>
       </div>
-      <div>
+      {/* <div className="myBlock myGlow">
+     
         <img
           className="aboutMe"
           id="myPicture"
           src={me}
           alt="profilePicture"
         ></img>
-      </div>
+      </div> */}
+
+      <div className="myGlow myBlock" style={{backgroundImage:`url(${me})`}}></div>
     </div>
-    // </div>
+    
   );
 }
 

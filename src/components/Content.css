@@ -93,7 +93,7 @@ section{
   }
   
   form {
-    background:#f0ebd1;
+    background:#f9f8f6;
     position: relative;
     top: 200px;
     overflow: hidden;
@@ -126,7 +126,7 @@ section{
     height: 37px;
     padding: 0px 10px;
     margin: 0 0 10px 0;
-    border: 1px solid #f8f5f1;
+    border: 1px solid #f2f2f2;
     border-radius: 5px;
   }
   

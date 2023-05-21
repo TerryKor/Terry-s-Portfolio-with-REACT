@@ -1,14 +1,22 @@
 .node {
-  background: rgba(0, 0, 0, 0);
-  height: 200px;
-  width: 220px;
+  height: 100px;
+  width: 110px;
+  -webkit-box-reflect: below 5px -webkit-gradient(
+      linear,
+      right top,
+      right bottom,
+      from(transparent),
+      to(rgba(255, 255, 255, 0.4))
+    );
+    margin-bottom: 20px;
+    padding: 0px;
 }
 .resumePage {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
-  margin-top: 100px;
+  gap: 20px;
+  margin-top: 50px;
 }
 
 .downloadLink {
@@ -21,7 +29,7 @@
   border: 1px solid #0a9dae;
   border-radius: 40px;
   padding: 5px 50px;
-  transition: 0.2s ease-in-out;
+  transition: 1s ease-in-out;
 }
 .downloadLink:hover {
   background-color: #0a9dae;
@@ -33,7 +41,15 @@
   font-size: 40px;
 }
 
-.logoWrappers{
-    display: flex;
-    gap: 20px;
+.logoWrappers {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
+/* 
+.img{
+  -webkit-box-reflect: below -35px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255,255,255, 0.4)));
+} */
