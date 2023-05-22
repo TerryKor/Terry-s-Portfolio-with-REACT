@@ -9,7 +9,7 @@ function About() {
       <div>
         <h2 className="aboutMe">My name is Terry</h2>
         <h1 className="aboutMe">
-          And I'm a{" "}
+          And I'm a{" "}<br/>
           <TypeAnimation className="animation"
             sequence={[
                 1000,

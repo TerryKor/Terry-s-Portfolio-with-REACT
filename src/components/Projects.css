@@ -91,3 +91,9 @@
     opacity: 1;
 
 }
+@media only screen and (max-width: 425px) {
+.card{
+    width: 125vw;
+    height: 22vh;
+}
+}

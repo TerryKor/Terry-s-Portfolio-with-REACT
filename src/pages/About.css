@@ -23,6 +23,7 @@ body {
 }
 span {
   color: #0a9dae;
+  /* height: 18vh; */
 }
 .aboutMe h3 {
   font-size: 50rem;
@@ -139,7 +140,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
   .sectionAboutMe {
     flex-direction: column-reverse;
     margin:0;
@@ -151,4 +152,8 @@ span {
   .aboutMe {
     font-size: 30px;
   }
+  span{
+    height: 18vh;
+  }
+  
 }
