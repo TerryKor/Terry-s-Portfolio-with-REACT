@@ -63,7 +63,6 @@ span {
   }
 } */
 
-
 @keyframes about-me-load {
   0% {
     transform: translateY(-20px);
@@ -75,9 +74,7 @@ span {
   }
 }
 
-
-
-.myBlock{
+.myBlock {
   position: relative;
   width: 42vw;
   border-radius: 18px;
@@ -89,41 +86,69 @@ span {
 }
 
 .myGlow::before,
-.myGlow::after{
+.myGlow::after {
   content: "";
-position: absolute;
-left: -2px;
-top: -2px;
-border-radius: 18px;
-background: linear-gradient(
-  -45deg,
-  #0a9dae,
-  #0aae1d,
-  #d00eb9,
-  #e61c0a,
-  #0606dd,
-  #1cd5ea
-);
-background-size: 400%;
-height:calc(100% + 5px);
-width: calc(100% + 5px);
-z-index: -1;
-animation: change 40s linear infinite;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  border-radius: 18px;
+  background: linear-gradient(
+    -45deg,
+    #0a9dae,
+    #0aae1d,
+    #0e86d0,
+    #0ae65e,
+    #0606dd,
+    #1cd5ea
+  );
+  background-size: 400%;
+  height: calc(100% + 5px);
+  width: calc(100% + 5px);
+  z-index: -1;
+  animation: change 40s linear infinite;
 }
 
-@keyframes change{
-  0%{
+@keyframes change {
+  0% {
     background-position: 0 0;
   }
-  50%{
+  50% {
     background-position: 400% 0;
   }
-  100%{
+  100% {
     background-position: 0 0;
   }
 }
 
-.myGlow::after{
+.myGlow::after {
   filter: blur(40px);
-  opacity: .5;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionAboutMe {
+    flex-direction: column-reverse
+  }
+  .myGlow{
+    width: 12rem;
+    margin: 20px 0;
+  }
+  .aboutMe {
+
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .sectionAboutMe {
+    flex-direction: column-reverse;
+    margin:0;
+  }
+  .myGlow{
+    width: 14rem;
+    margin: 20px 0;
+  }
+  .aboutMe {
+    font-size: 30px;
+  }
 }

@@ -1,5 +1,5 @@
-body{
-    --nav-load-time:600ms
+body {
+  --nav-load-time: 600ms;
 }
 
 nav {
@@ -61,66 +61,92 @@ nav {
   100% {
     transform: translateY(0);
   }
-
- 
 }
 
 .link3 {
-    padding: 0px 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #0a9dae;
-    font-size: large;
-    animation-name: nav-link3-load;
-    animation-duration: 500ms;
-    animation-timing-function: ease-in;
-    animation-delay: 600ms;
-    animation-fill-mode: forwards;
-    transform: scale(0);
-  }
-  
-  .links:hover {
-    background-color: beige;
-  }
-  
-  @keyframes nav-link3-load {
-    0% {
-      transform: translateY(-100%);
-    }
-  
-    100% {
-      transform: translateY(0);
-    }
-  
-   
+  padding: 0px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0a9dae;
+  font-size: large;
+  animation-name: nav-link3-load;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+.links:hover {
+  background-color: beige;
+}
+
+@keyframes nav-link3-load {
+  0% {
+    transform: translateY(-100%);
   }
 
-  .link4 {
-    padding: 0px 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #0a9dae;
-    font-size: large;
-    animation-name: nav-link4-load;
-    animation-duration: 600ms;
-    animation-timing-function: ease-in;
-    animation-delay: 600ms;
-    animation-fill-mode: forwards;
-    transform: scale(0);
+  100% {
+    transform: translateY(0);
   }
-  
-  .links:hover {
-    background-color: beige;
+}
+
+.link4 {
+  padding: 0px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0a9dae;
+  font-size: large;
+  animation-name: nav-link4-load;
+  animation-duration: 600ms;
+  animation-timing-function: ease-in;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+.links:hover {
+  background-color: beige;
+}
+
+@keyframes nav-link4-load {
+  0% {
+    transform: translateY(-100%);
   }
-  
-  @keyframes nav-link4-load {
-    0% {
-      transform: translateY(-100%);
-    }
-  
-    100% {
-      transform: translateY(0);
-    }
-  
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+header>i{
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 432px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  header>i{
+    color: blueviolet;
+    font-size: 60px;
+   }
+
+   nav>.links{
+    display: none;
+    visibility: hidden;
+   }
+
+   .visible>.links{
+    display: block;
+    visibility: visible;
+   }
+
    
-  }
+}
+
+

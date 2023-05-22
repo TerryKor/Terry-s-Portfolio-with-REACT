@@ -10,7 +10,7 @@ function About() {
         <h2 className="aboutMe">My name is Terry</h2>
         <h1 className="aboutMe">
           And I'm a{" "}
-          <TypeAnimation
+          <TypeAnimation className="animation"
             sequence={[
                 1000,
               "Web Developer",
