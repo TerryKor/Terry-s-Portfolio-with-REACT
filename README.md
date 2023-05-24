@@ -41,7 +41,7 @@ npm start
 
 ## Screenshot
 
-![Terry-s-Portfolio-with-REACT](src\assets\images\porfolioPagesSreenshot.png)
+![Terry-s-Portfolio-with-REACT](src/assets/images/porfolioPagesSreenshot.png)
 
 ## Contribution
 
