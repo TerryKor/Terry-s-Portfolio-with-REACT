@@ -84,5 +84,6 @@
   .card {
     width: 125vw;
     height: 22vh;
+    /* overflow: hidden; */
   }
 }
