@@ -11,18 +11,16 @@ function Contact() {
     emailError: "",
     messageError: "",
   });
-
+  // Handle input changes
   const handleInputChange = (event) => {
     console.log(event.target);
     const { name, value } = event.target;
-
-    // name === "name" ? setUsername(value) : setEmail(value);
 
     if (name === "name") setUsername(value);
     else if (name === "email") setEmail(value);
     else if (name === "message") setMessage(value);
   };
-
+  // Generate a string containing all the error messages
   const showError = (e) => {
     if (e.target.name === "name" && username.trim() === "") {
       setError((prev) => ({ ...prev, nameError: "Name cannot be Empty" }));
@@ -40,7 +38,7 @@ function Contact() {
     console.log("FOCUS out", error);
   };
 
-  const [ errorString, setErrorString ] = useState("");
+  const [errorString, setErrorString] = useState("");
   useEffect(() => {
     const dump =
       error.nameError + "\n" + error.emailError + "\n" + error.messageError;
@@ -57,7 +55,9 @@ function Contact() {
           <form>
             <p>Hello Terry,</p>
             <label htmlFor="message"> Your message:</label>
-            <label htmlFor="message" className="error">{errorString.split('\n')[2]}</label>
+            <label htmlFor="message" className="error">
+              {errorString.split("\n")[2]}
+            </label>
             <textarea
               onChange={handleInputChange}
               name="message"
@@ -67,7 +67,7 @@ function Contact() {
             ></textarea>
             <p>Best,</p>
             <label htmlFor="name">Name:</label>
-            <label className="error">{errorString.split('\n')[0]}</label>
+            <label className="error">{errorString.split("\n")[0]}</label>
             <input
               onChange={handleInputChange}
               type="text"
@@ -76,10 +76,12 @@ function Contact() {
               value={username}
               id="name"
             ></input>
-           <div className="labelWrap">
-           <label htmlFor="email">Email:</label>
-            <label htmlFor="email" className="error">{errorString.split('\n')[1]}</label>
-           </div>
+            <div className="labelWrap">
+              <label htmlFor="email">Email:</label>
+              <label htmlFor="email" className="error">
+                {errorString.split("\n")[1]}
+              </label>
+            </div>
             <input
               onChange={handleInputChange}
               type="text"

@@ -1,6 +1,7 @@
 .node {
   height: 100px;
   width: 110px;
+  /* Adding reflection for effect for images */
   -webkit-box-reflect: below 5px -webkit-gradient(
       linear,
       right top,
@@ -49,7 +50,4 @@
   align-items: center;
   gap: 100px;
 }
-/* 
-.img{
-  -webkit-box-reflect: below -35px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255,255,255, 0.4)));
-} */
+

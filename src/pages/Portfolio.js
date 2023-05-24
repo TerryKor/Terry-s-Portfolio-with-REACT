@@ -8,29 +8,52 @@ import teamProfileGenerator from "../assets/images/teamProfileGenerator.png";
 import weatherForecast from "../assets/images/weatherforecast.png";
 import ticketMasterEventPlaner from "../assets/images/ticketMasterEvantPlanner.png";
 
-
 function Projects() {
   return (
     <div className="container">
-      <Project 
-      image = {techblog}
-      title="My new tile" subtitle="some title some some title end" />
-      <Project 
-      image = {jate}
-      title="My new tile" subtitle="some title some some title end" />
-      <Project 
-      image = {noteTaker}
-      title="My new tile" subtitle="some title some some title end" />
-      <Project 
-      image = {teamProfileGenerator}
-      title="My new tile" subtitle="some title some some title end" />
-      <Project 
-      image = {weatherForecast}
-      title="My new tile" subtitle="some title some some title end" />
-      <Project 
-      image = {ticketMasterEventPlaner}
-      title="My new tile" subtitle="some title some some title end" />
-
+      {/* Rendering a Project component with the image, title, and subtitle */}
+      <Project
+        image={techblog}
+        title="Tech-Blog"
+        subtitle="Web app designed to create, update and delete posts on any tech field as well as leave comments."
+        github="https://github.com/TerryKor/Tech-Blog"
+        link="https://boiling-waters-85305.herokuapp.com/"
+      />
+      <Project
+        image={jate}
+        title="Jate-Text-Editor"
+        subtitle="App to create and save notes as well as notes with JavaScript syntax highlightned"
+        github="https://github.com/TerryKor/Jate-Text-Editor"
+        link="https://jate-by-terry.herokuapp.com/"
+      />
+      <Project
+        image={noteTaker}
+        title="Note Taker"
+        subtitle="Application is created to make and store quick notes and delete them once no longer needed"
+        github="https://github.com/TerryKor/Note-Taker"
+        link="https://note-taker-app-terry.herokuapp.com/"
+      />
+      <Project
+        image={teamProfileGenerator}
+        title="Team-Profile-Generator"
+        subtitle="App to create a work team with some data for each member."
+        github="https://github.com/TerryKor/Team-Profile-Generator"
+        link="https://drive.google.com/file/d/14j9NhvzFbvvhawYgA0zP_q3WutpIqzGb/view"
+      />
+      <Project
+        image={weatherForecast}
+        title="Weather-Forecast-App"
+        subtitle="App provides user with weather forecast for next 5 days(temperature, wind, humidity)"
+        github="https://github.com/TerryKor/Weather-Forecast-Application"
+        link="https://terrykor.github.io/Weather-Forecast-Application/"
+      />
+      <Project
+        image={ticketMasterEventPlaner}
+        title="Travelling-Event-Planner"
+        subtitle="Built for travelers who want to plan out their vacation and save or delete events in calendar"
+        github="https://github.com/Project1Group6/ticketmaster-event-planner"
+        link="https://project1group6.github.io/ticketmaster-event-planner/"
+      />
     </div>
   );
 }

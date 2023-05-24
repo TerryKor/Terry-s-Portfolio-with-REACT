@@ -1,6 +1,5 @@
 import React from "react";
 import "./Resume.css";
-// import Tilt from 'react-tilt';
 import node from "../assets/images/nodeJS.jpg";
 import tailwind from "../assets/images/tailwind.png";
 import sql from "../assets/images/mySql.png";

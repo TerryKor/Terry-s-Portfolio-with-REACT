@@ -1,6 +1,7 @@
+/* Setting custom CSS variables */
 body {
-  --nav-load-time: 600ms;
-  --about-me-load-delay: calc(var(--nav-load-time)) + 200ms;
+  --nav-load-time: 600ms;/* Custom variable for navigation load time */
+  --about-me-load-delay: calc(var(--nav-load-time)) + 200ms;/* Custom variable for delay in loading the about me section */
 }
 
 .sectionAboutMe {
@@ -15,7 +16,7 @@ body {
 
 .aboutMe {
   padding: 1% 5%;
-  animation: about-me-load 600ms ease-in;
+  animation: about-me-load 600ms ease-in;/* Animation for loading the about me section */
   animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
@@ -23,47 +24,26 @@ body {
 }
 span {
   color: #0a9dae;
-  /* height: 18vh; */
+  
 }
 .aboutMe h3 {
   font-size: 50rem;
   font-weight: 100;
 }
-
+/* 
 #myPicture {
   height: 550px;
   width: 290px;
   border-radius: 50px;
-}
+} */
 
 .aboutMe {
   display: block;
   position: relative;
   z-index: 1;
 }
-/* .borderAnimation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: calc(100% + 20px);
-  height: calc(100% + 20px);
-  border: 3px solid transparent;
-  border-radius: 5px;
-  animation: gradientAnimation 4s linear infinite;
-}
 
-@keyframes gradientAnimation {
-  0% {
-    border-image: linear-gradient(to right, #ff9a9e, #fad0c4);
-  }
-  50% {
-    border-image: linear-gradient(to right, #a18cd1, #fbc2eb);
-  }
-  100% {
-    border-image: linear-gradient(to right, #ff9a9e, #fad0c4);
-  }
-} */
-
+/* Animation for the about me section */
 @keyframes about-me-load {
   0% {
     transform: translateY(-20px);
@@ -77,7 +57,7 @@ span {
 
 .myBlock {
   position: relative;
-  width: 42vw;
+  width: 55vw;
   border-radius: 18px;
   height: 400px;
   margin: 10px auto 0;
@@ -106,7 +86,8 @@ span {
   height: calc(100% + 5px);
   width: calc(100% + 5px);
   z-index: -1;
-  animation: change 40s linear infinite;
+  animation: change 40s linear infinite; /* Animation for changing the background gradient */
+
 }
 
 @keyframes change {
@@ -142,7 +123,7 @@ span {
 
 @media only screen and (max-width: 425px) {
   .sectionAboutMe {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; /* Reverse the order of flex items in smaller screen */
     margin:0;
   }
   .myGlow{

@@ -4,24 +4,25 @@ import me from "../assets/images/me.png";
 import { TypeAnimation } from "react-type-animation";
 function About() {
   return (
-    // <div className="homeAboutMe">
     <div className="sectionAboutMe">
       <div>
         <h2 className="aboutMe">My name is Terry</h2>
+        {/* Displaying the dynamic typed text */}
         <h1 className="aboutMe">
-          And I'm a{" "}<br/>
-          <TypeAnimation className="animation"
+          And I'm a <br />
+          {/* Using the TypeAnimation component */}
+          <TypeAnimation
+            className="animation"
             sequence={[
-                1000,
+              1000,
               "Web Developer",
-              1000, 
+              1000,
               "Crypto Enthusiast",
               1000,
               "Traveller",
               1000,
-             
             ]}
-            speed={{type:"keyStrokeDelayInMs", value:100}}
+            speed={{ type: "keyStrokeDelayInMs", value: 100 }}
             wrapper="span"
             cursor={true}
             repeat={Infinity}
@@ -29,29 +30,25 @@ function About() {
           />
         </h1>
         <p className="aboutMe">
-          Hello. My name is Terry: a newby full stack web developer, formerly a
-          Project Manager in construction, living in Toronto, Canada. I am
-          passionate about building simple and organic websites in HTML5, CSS
-          and JavaScript. I am always looking to expand my skills, and am up for
-          new challenges. I believe, my extensive Project Management experience
-          along with some web development background makes me an excellent
-          candidate for your projects. Please feel free to browse through my
-          portfolio.
+          ... a full-stack web developer based in Toronto, Canada. I have a
+          background in project management in the construction industry, but I
+          decided to transition into web development to pursue my passion for
+          building simple and organic websites using HTML5, CSS, and JavaScript.
+          I'm always eager to expand my skills and take on new challenges. With
+          my extensive project management experience and web development
+          background, I believe I bring a unique perspective to projects. Feel
+          free to explore my portfolio to see examples of my work. In addition
+          to coding, I enjoy traveling, cooking, camping, and trading
+          cryptocurrencies.
         </p>
       </div>
-      {/* <div className="myBlock myGlow">
-     
-        <img
-          className="aboutMe"
-          id="myPicture"
-          src={me}
-          alt="profilePicture"
-        ></img>
-      </div> */}
 
-      <div className="myGlow myBlock" style={{backgroundImage:`url(${me})`}}></div>
+      {/* Display the profile picture */}
+      <div
+        className="myGlow myBlock"
+        style={{ backgroundImage: `url(${me})` }}
+      ></div>
     </div>
-    
   );
 }
 
