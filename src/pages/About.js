@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 function About() {
   return (
     <div className="sectionAboutMe">
-      <div>
+      <div className="leftSideData">
         <h2 className="aboutMe">My name is Terry</h2>
         {/* Displaying the dynamic typed text */}
         <h1 className="aboutMe">
@@ -29,7 +29,7 @@ function About() {
             style={{ fontSize: "2em", display: "inline-block" }}
           />
         </h1>
-        <p className="aboutMe">
+        <p className="contentAboutMe">
           ... a full-stack web developer based in Toronto, Canada. I have a
           background in project management in the construction industry, but I
           decided to transition into web development to pursue my passion for

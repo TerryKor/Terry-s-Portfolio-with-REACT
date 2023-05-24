@@ -86,4 +86,26 @@
     height: 22vh;
     /* overflow: hidden; */
   }
+  
 }
+
+@media only screen and (max-width: 320px) {
+  .card {
+    width: 100vw;
+    height: 15vh; 
+    padding-top: 0;
+  }
+  .content h3{
+    margin: 0;
+  }
+.projectTitle{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.projectSubtitle{
+  font-size: 10px;
+}
+  
+}
+

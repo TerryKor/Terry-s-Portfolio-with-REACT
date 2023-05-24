@@ -106,7 +106,47 @@ span {
   filter: blur(40px);
   opacity: 0.5;
 }
+@media only screen and (width: 2560px){
+  .myBlock{
+    width: 25vw;
+  }
+}
 
+@media only screen and (max-width: 1440px) {
+.myBlock{
+  width: 11vw;
+}
+.leftSideData{
+  width: 85%;
+  margin-right: 40px;
+}
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+  .aboutMe{
+    padding: 0;
+  }
+  .sectionAboutMe{
+    margin: 0;
+  }
+  .myBlock{
+    width: 20vw;
+  }
+
+  .leftSideData{
+    width: 85%;
+  }
+
+
+
+
+}
+
+.contentAboutMe{
+  color: white;
+}
 @media only screen and (max-width: 768px) {
   .sectionAboutMe {
     flex-direction: column-reverse
@@ -115,7 +155,9 @@ span {
     width: 12rem;
     margin: 20px 0;
   }
-  .aboutMe {
+
+ 
+  .contentAboutMe {
 
     font-size: 30px;
   }
@@ -138,3 +180,5 @@ span {
   }
   
 }
+
+
