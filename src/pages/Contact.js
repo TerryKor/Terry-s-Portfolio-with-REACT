@@ -12,7 +12,7 @@ function Contact() {
     emailError: "",
     messageError: "",
   });
-  // Handle input changes
+  // Handle input changes and validate email
   const handleInputChange = (event) => {
     const { name, value } = event.target;
 
@@ -28,7 +28,7 @@ function Contact() {
       setMessage(value);
     }
   };
-  // Generate a string containing all the error messages
+  // Generate a string containing all the error messages username,email, message, validating email
   const showError = (e) => {
     if (e.target.name === "name" && username.trim() === "") {
       setError((prev) => ({ ...prev, nameError: "Name cannot be Empty" }));
