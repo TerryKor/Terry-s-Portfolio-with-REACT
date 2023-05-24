@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.css";
+import { validateEmail } from "../components/utils/helpers";
 
 function Contact() {
   const [email, setEmail] = useState("");
@@ -13,20 +14,31 @@ function Contact() {
   });
   // Handle input changes
   const handleInputChange = (event) => {
-    console.log(event.target);
     const { name, value } = event.target;
 
-    if (name === "name") setUsername(value);
-    else if (name === "email") setEmail(value);
-    else if (name === "message") setMessage(value);
+    if (name === "name") {
+      setUsername(value);
+    } else if (name === "email") {
+      setEmail(value);
+      setError((prev) => ({ ...prev, emailError: "" })); // Clear previous email error
+      if (!validateEmail(value)) {
+        setError((prev) => ({ ...prev, emailError: "Invalid email format" }));
+      }
+    } else if (name === "message") {
+      setMessage(value);
+    }
   };
   // Generate a string containing all the error messages
   const showError = (e) => {
     if (e.target.name === "name" && username.trim() === "") {
       setError((prev) => ({ ...prev, nameError: "Name cannot be Empty" }));
     }
-    if (e.target.name === "email" && email.trim() === "") {
-      setError((prev) => ({ ...prev, emailError: "Email cannot be Empty" }));
+    if (e.target.name === "email") {
+      if (email.trim() === "") {
+        setError((prev) => ({ ...prev, emailError: "Email cannot be Empty" }));
+      } else if (!validateEmail(email)) {
+        setError((prev) => ({ ...prev, emailError: "Invalid email format" }));
+      }
     }
     if (e.target.name === "message" && message.trim() === "") {
       setError((prev) => ({
@@ -34,8 +46,6 @@ function Contact() {
         messageError: "Message cannot be Empty",
       }));
     }
-    console.log("username is :", username, email, message, ": empty");
-    console.log("FOCUS out", error);
   };
 
   const [errorString, setErrorString] = useState("");
@@ -52,7 +62,7 @@ function Contact() {
           Send <span>me</span> a message!
         </h1>
         <div className="formWrap">
-          <form>
+          <form action="mailto:misterfreemann@gmail.com" method="get">
             <p>Hello Terry,</p>
             <label htmlFor="message"> Your message:</label>
             <label htmlFor="message" className="error">

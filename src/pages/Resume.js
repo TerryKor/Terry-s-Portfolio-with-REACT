@@ -18,15 +18,15 @@ function Resume() {
         Download Resume <i className="bx bx-cloud-download"></i>
       </a>
       <div className="logoWrappers">
-        <img className="node" src={node} alt="node" />
-        <img className="node" src={tailwind} alt="node" />
-        <img className="node" src={sql} alt="node" />
-        <img className="node" src={react} alt="node" />
+        <img className="node" src={node} alt="node logo" />
+        <img className="node" src={tailwind} alt="tailwind logo" />
+        <img className="node" src={sql} alt="sql logo" />
+        <img className="node" src={react} alt="react logo" />
        
-        <img className="node" src={mongo} alt="node" />
-        <img className="node" src={html} alt="node" />
-        <img className="node" src={css} alt="node" />
-        <img className="node" src={javaScript} alt="node" />
+        <img className="node" src={mongo} alt="mongoDB logo" />
+        <img className="node" src={html} alt="html logo" />
+        <img className="node" src={css} alt="css logo" />
+        <img className="node" src={javaScript} alt="javascript logo" />
       </div>
     </div>
   );
