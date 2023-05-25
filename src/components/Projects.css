@@ -80,32 +80,40 @@
   transition-delay: 0.3s;
   opacity: 1;
 }
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
   .card {
     width: 125vw;
     height: 22vh;
-    /* overflow: hidden; */
+    overflow: hidden;
+  }
+  .content{
+    margin: 0;
   }
   
-}
+} */
 
 @media only screen and (max-width: 320px) {
   .card {
     width: 100vw;
-    height: 15vh; 
+    height: 15vh;
     padding-top: 0;
   }
-  .content h3{
-    margin: 0;
+  .content h3 {
+    margin-top: 0;
+    font-size: 19px;
   }
-.projectTitle{
-  font-size: 10px;
-  margin: 0;
-  padding: 0;
-}
-.projectSubtitle{
-  font-size: 10px;
-}
-  
-}
 
+  .projectSubtitle {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    margin-top: 0%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: 17px;
+  }
+  .projectLink > a {
+    margin-bottom: 2rem;
+  }
+}

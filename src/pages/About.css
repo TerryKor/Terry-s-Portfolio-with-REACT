@@ -76,17 +76,18 @@ span {
   background: linear-gradient(
     -45deg,
     #0a9dae,
-    #0aae1d,
+   #0606dd,
     #0e86d0,
     #0ae65e,
-    #0606dd,
-    #1cd5ea
+    #010213,
+    #1cd5ea,
+    #0b4045
   );
   background-size: 400%;
   height: calc(100% + 5px);
   width: calc(100% + 5px);
   z-index: -1;
-  animation: change 40s linear infinite; /* Animation for changing the background gradient */
+  animation: change 60s linear infinite; /* Animation for changing the background gradient */
 
 }
 

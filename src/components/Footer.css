@@ -57,6 +57,13 @@ transition: 1s ease;
 
     }
 }
+@media only screen and (max-width: 1024px) {
+  footer{
+    bottom: auto;
+  
+  }
+  }
+
 
 @media only screen and (max-width: 768px) {
   footer{

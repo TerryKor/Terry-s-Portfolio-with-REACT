@@ -9,6 +9,10 @@ body {
   display: flex;
   overflow-x: none;
 }
+/* 
+footer{
+  margin-bottom: 50vh;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
