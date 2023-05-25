@@ -1,7 +1,7 @@
 /* Setting custom CSS variables */
 body {
-  --nav-load-time: 600ms;/* Custom variable for navigation load time */
-  --about-me-load-delay: calc(var(--nav-load-time)) + 200ms;/* Custom variable for delay in loading the about me section */
+  --nav-load-time: 600ms; /* Custom variable for navigation load time */
+  --about-me-load-delay: calc(var(--nav-load-time)) + 200ms; /* Custom variable for delay in loading the about me section */
 }
 
 .sectionAboutMe {
@@ -16,7 +16,7 @@ body {
 
 .aboutMe {
   padding: 1% 5%;
-  animation: about-me-load 600ms ease-in;/* Animation for loading the about me section */
+  animation: about-me-load 600ms ease-in; /* Animation for loading the about me section */
   animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
@@ -24,7 +24,6 @@ body {
 }
 span {
   color: #0a9dae;
-  
 }
 .aboutMe h3 {
   font-size: 50rem;
@@ -76,7 +75,7 @@ span {
   background: linear-gradient(
     -45deg,
     #0a9dae,
-   #0606dd,
+    #0606dd,
     #0e86d0,
     #0ae65e,
     #010213,
@@ -88,7 +87,6 @@ span {
   width: calc(100% + 5px);
   z-index: -1;
   animation: change 60s linear infinite; /* Animation for changing the background gradient */
-
 }
 
 @keyframes change {
@@ -107,59 +105,51 @@ span {
   filter: blur(40px);
   opacity: 0.5;
 }
-@media only screen and (width: 2560px){
-  .myBlock{
+@media only screen and (width: 2560px) {
+  .myBlock {
     width: 25vw;
   }
 }
 
 @media only screen and (max-width: 1440px) {
-.myBlock{
-  width: 11vw;
+  .myBlock {
+    width: 11vw;
+  }
+  .leftSideData {
+    width: 85%;
+    margin-right: 40px;
+  }
 }
-.leftSideData{
-  width: 85%;
-  margin-right: 40px;
-}
-}
-
 
 @media only screen and (max-width: 1024px) {
-
-  .aboutMe{
+  .aboutMe {
     padding: 0;
   }
-  .sectionAboutMe{
+  .sectionAboutMe {
     margin: 0;
   }
-  .myBlock{
+  .myBlock {
     width: 20vw;
   }
 
-  .leftSideData{
+  .leftSideData {
     width: 85%;
   }
-
-
-
-
 }
 
-.contentAboutMe{
+.contentAboutMe {
   color: white;
 }
 @media only screen and (max-width: 768px) {
   .sectionAboutMe {
-    flex-direction: column-reverse
+    flex-direction: column-reverse;
   }
-  .myGlow{
+  .myGlow {
     width: 12rem;
     margin: 20px 0;
   }
 
- 
   .contentAboutMe {
-
     font-size: 30px;
   }
 }
@@ -167,19 +157,16 @@ span {
 @media only screen and (max-width: 425px) {
   .sectionAboutMe {
     flex-direction: column-reverse; /* Reverse the order of flex items in smaller screen */
-    margin:0;
+    margin: 0;
   }
-  .myGlow{
+  .myGlow {
     width: 14rem;
     margin: 20px 0;
   }
   .aboutMe {
     font-size: 30px;
   }
-  span{
+  span {
     height: 18vh;
   }
-  
 }
-
-

@@ -161,31 +161,76 @@ input[type="text"]:focus {
   display: flex;
   flex-direction: row;
 }
+@media only screen and (max-width: 1440px) {
+  footer {
+    margin-bottom: -15rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    justify-content: center;
+    margin: 12rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    margin: 14rem 0;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .wrap {
     align-self: center;
     width: 100vw;
-    margin: 0px 10px;
+    margin: 0 2rem 10rem 2rem;
     padding-left: 10px;
   }
-  .formWrap:after {
-    width: 100vw;
-    object-fit: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
+  form {
+  
+    position: relative;
+    margin: 12% 0 0 2%;
+    width: 22rem;
+    height: 10rem;
+    
+  }
+  .contactPage {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
   }
 
   .formWrap {
+  
     background-size: 100%;
-    height: 500px;
-  }
-  form {
-    margin: 0;
+    height: 490px;
+    width: 29rem;
   }
 
   .formWrap:before {
-    width: 100vw;
+    width: 97vw;
+    bottom: 3.4rem;
     background-size: 100%;
     background-repeat: no-repeat;
+  }
+  .formWrap:after {
+    width: 97vw;
+    bottom: -2rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .formWrap:hover form {
+    height: 30rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  label{
+    font-size: 0.9rem;
+  }
+  .error{
+    letter-spacing: normal;
   }
 }

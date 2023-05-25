@@ -51,6 +51,17 @@
   gap: 100px;
   margin-top:20vh
 }
+@media only screen and (max-width: 768px){
+  .logoWrappers{
+    margin-top: 2vh;
+    margin-bottom: 11vh;
+  }
+  .resumePage{
+    margin-top: 2vh;
+  }
+}
+
+
 @media only screen and (max-width: 425px) {
   .resumePage{
    flex-direction: column;
@@ -60,8 +71,8 @@
 
   }
   .logoWrappers {
-    margin-top: 5vh;
-    margin-bottom: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 11vh;
   }
   .resumePage{
     margin-top: 5vh;
