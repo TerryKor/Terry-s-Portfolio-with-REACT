@@ -269,3 +269,47 @@ input[type="text"]:focus {
   }
 }
 
+@media only screen and (max-width: 320px){
+
+  form {
+  
+    position: relative;
+    margin: 12% 0 0 2%;
+    width: 15.5rem;
+    height: 7rem;
+  }
+/* .formWrap{
+  padding-left: 0;
+} */
+
+  .formWrap:before {
+    width: 96vw;
+    bottom: 1.1rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .formWrap:after {
+    width: 96vw;
+    bottom: -2rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .formWrap:hover form {
+    height: 25rem;
+  }
+
+  footer{
+    margin-top: 0;
+  }
+
+  .error{
+     margin-left: -1rem;
+  }
+
+label{
+  margin-left: 0;
+  font-size: 0.74rem;
+}
+
+}
