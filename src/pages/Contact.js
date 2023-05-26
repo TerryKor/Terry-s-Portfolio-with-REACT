@@ -33,6 +33,7 @@ function Contact() {
     if (e.target.name === "name" && username.trim() === "") {
       setError((prev) => ({ ...prev, nameError: "Name cannot be Empty" }));
     }
+    else if (e.target.name === "name" && username.trim() !== ""){setError((prev) => ({ ...prev, nameError: "" }));}
     if (e.target.name === "email") {
       if (email.trim() === "") {
         setError((prev) => ({ ...prev, emailError: "Email cannot be Empty" }));
@@ -46,6 +47,7 @@ function Contact() {
         messageError: "Message cannot be Empty",
       }));
     }
+    else if (e.target.name === "message" && message.trim() !== ""){setError((prev) => ({ ...prev, messageError: "" }));}
   };
 
   const [errorString, setErrorString] = useState("");
