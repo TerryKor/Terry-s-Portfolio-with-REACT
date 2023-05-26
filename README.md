@@ -37,7 +37,7 @@ npm start
 
 ## Usage
 
-- See deplpoyed page [here](). Otherwise follow Insatallation instructions<br />
+- See deplpoyed page [here](https://terrykor.github.io/). Otherwise follow Insatallation instructions<br />
 
 ## Screenshot
 
