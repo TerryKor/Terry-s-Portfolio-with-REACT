@@ -222,7 +222,7 @@ input[type="text"]:focus {
     background-repeat: no-repeat;
   }
   .formWrap:hover form {
-    height: 30rem;
+    height: 27rem;
   }
   p{
     font-size: 1rem;
@@ -233,4 +233,39 @@ input[type="text"]:focus {
   .error{
     letter-spacing: normal;
   }
+  footer{
+    margin-top: 1rem;
+  }
 }
+@media only screen and (max-width: 375px){
+  form {
+  
+    position: relative;
+    margin: 12% 0 0 2%;
+    width: 19rem;
+    height: 8rem;
+  }
+
+
+  .formWrap:before {
+    width: 97vw;
+    bottom: 2.4rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .formWrap:after {
+    width: 97vw;
+    bottom: -2rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .formWrap:hover form {
+    height: 28rem;
+  }
+
+  footer{
+    margin-top: auto;
+  }
+}
+
