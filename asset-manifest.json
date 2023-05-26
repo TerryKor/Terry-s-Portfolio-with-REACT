@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Terry-s-Portfolio-with-REACT/static/css/main.4e902465.css",
+    "main.js": "/Terry-s-Portfolio-with-REACT/static/js/main.fef215c9.js",
+    "static/media/javascript.png": "/Terry-s-Portfolio-with-REACT/static/media/javascript.4dbfab96f26688e0e3d6.png",
+    "static/media/ticketMasterEvantPlanner.png": "/Terry-s-Portfolio-with-REACT/static/media/ticketMasterEvantPlanner.7f2c1d5078bf285dd9a7.png",
+    "static/media/boxicons.svg": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/css.png": "/Terry-s-Portfolio-with-REACT/static/media/css.554b21bdb2355d8113f4.png",
+    "static/media/weatherforecast.png": "/Terry-s-Portfolio-with-REACT/static/media/weatherforecast.4c440d82ba73cfe5a951.png",
+    "static/media/techblog.png": "/Terry-s-Portfolio-with-REACT/static/media/techblog.83aa0e09550787c1a87e.png",
+    "static/media/boxicons.eot": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/me.png": "/Terry-s-Portfolio-with-REACT/static/media/me.83909756318feed6dd72.png",
+    "static/media/teamProfileGenerator.png": "/Terry-s-Portfolio-with-REACT/static/media/teamProfileGenerator.0a0a0f4448282eaefed1.png",
+    "static/media/jate.png": "/Terry-s-Portfolio-with-REACT/static/media/jate.2a05a265774a06f53c69.png",
+    "static/media/after.png": "/Terry-s-Portfolio-with-REACT/static/media/after.d2323def5eb81b672989.png",
+    "static/media/mySql.png": "/Terry-s-Portfolio-with-REACT/static/media/mySql.4c87b42e761e60d8bc60.png",
+    "static/media/Resume.pdf": "/Terry-s-Portfolio-with-REACT/static/media/Resume.27f7d4369d32f95b3929.pdf",
+    "static/media/noteTaker.png": "/Terry-s-Portfolio-with-REACT/static/media/noteTaker.acecd058858928ce22f7.png",
+    "static/media/boxicons.woff2": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/github.png": "/Terry-s-Portfolio-with-REACT/static/media/github.3ec61b93854178c47369.png",
+    "static/media/mongoDB.png": "/Terry-s-Portfolio-with-REACT/static/media/mongoDB.23127c4cdb7f95274892.png",
+    "static/media/before.png": "/Terry-s-Portfolio-with-REACT/static/media/before.5cfdad594a81f5098176.png",
+    "static/media/nodeJS.jpg": "/Terry-s-Portfolio-with-REACT/static/media/nodeJS.abfaef34ea49d0c7cd3c.jpg",
+    "static/media/html.png": "/Terry-s-Portfolio-with-REACT/static/media/html.9e0a1735fcd5d4cd6395.png",
+    "static/media/reactJS.png": "/Terry-s-Portfolio-with-REACT/static/media/reactJS.9aa5b98978006f9a1639.png",
+    "static/media/tailwind.png": "/Terry-s-Portfolio-with-REACT/static/media/tailwind.087f91401d142f1a4903.png",
+    "static/media/logo.png": "/Terry-s-Portfolio-with-REACT/static/media/logo.b3802543d75de26756d4.png",
+    "index.html": "/Terry-s-Portfolio-with-REACT/index.html",
+    "main.4e902465.css.map": "/Terry-s-Portfolio-with-REACT/static/css/main.4e902465.css.map",
+    "main.fef215c9.js.map": "/Terry-s-Portfolio-with-REACT/static/js/main.fef215c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e902465.css",
+    "static/js/main.fef215c9.js"
+  ]
+}
