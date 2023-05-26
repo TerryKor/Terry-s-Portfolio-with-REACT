@@ -80,24 +80,71 @@
   transition-delay: 0.3s;
   opacity: 1;
 }
-/* @media only screen and (max-width: 425px) {
-  .card {
-    width: 125vw;
-    height: 22vh;
+
+@media only screen and (max-width: 425px) {
+  .container {
+    width: fit-content;
+    margin: 0;
     overflow: hidden;
   }
-  .content{
-    margin: 0;
+  .card {
+    width: auto;
+    height: auto;
   }
-  
-} */
+  .content h3 {
+    margin-top: 0;
+    font-size: 19px;
+  }
+  .projectImages {
+    width: 21rem;
+    height: 11rem;
+  }
+  .content {
+    width: 21rem;
+    height: 11rem;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .card {
+    width: auto;
+    height: auto;
+  }
+  .content {
+    width: 21rem;
+    height: 11rem;
+  }
+  .content h3 {
+    margin-top: 0;
+    font-size: 19px;
+  }
+  .projectImages {
+    width: 21rem;
+    height: 11rem;
+  }
+  .projectLink img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
 
 @media only screen and (max-width: 320px) {
   .card {
-    width: 100vw;
-    height: 15vh;
-    padding-top: 0;
+    width: auto;
+    height: auto;
   }
+
+  .content {
+    width: 17rem;
+    height: 10rem;
+  }
+
+  .projectImages {
+    width: 17rem;
+    height: 10rem;
+  }
+
   .content h3 {
     margin-top: 0;
     font-size: 19px;
@@ -109,11 +156,12 @@
     align-self: center;
     align-content: center;
     margin-top: 0%;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    font-size: 17px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.7rem;
   }
-  .projectLink > a {
-    margin-bottom: 2rem;
+  .projectLink img {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }

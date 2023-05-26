@@ -9,35 +9,12 @@
   flex-wrap: wrap;
   margin-top: 10px;
 }
-
+/* 
 @media only screen and (max-width: 425px) {
   .container {
     width: fit-content;
     margin: 0;
     overflow: hidden;
   }
-}
-@media only screen and (max-width: 375px) {
-  .container {
-    width: auto;
-  }
-  .card {
-    display: flex;
-    width: auto;
-    justify-content: center;
-  }
+} */
 
-  .projectSubtitle {
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
-  .projectLink {
-    margin-bottom: 1rem;
-  }
-  .projectImages {
-    display: flex;
-    justify-content: center;
-    margin-right: 2rem;
-    margin-left: 2rem;
-  }
-}
