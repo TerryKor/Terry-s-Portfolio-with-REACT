@@ -13,10 +13,10 @@ function App() {
     <>
     <Header/>
     <Routes>
-      <Route exact path='/' Component={About}/>
-      <Route exact path='/portfolio' Component={Portfolio}/>
-      <Route exact path='/contact' Component={Contact}/>
-      <Route exact path='/resume' Component={Resume}/>
+      <Route exact path='/Terry-s-Portfolio-with-REACT/' Component={About}/>
+      <Route exact path='/Terry-s-Portfolio-with-REACT/portfolio' Component={Portfolio}/>
+      <Route exact path='/Terry-s-Portfolio-with-REACT/contact' Component={Contact}/>
+      <Route exact path='/Terry-s-Portfolio-with-REACT/resume' Component={Resume}/>
     </Routes>
     <Footer/>
     </>

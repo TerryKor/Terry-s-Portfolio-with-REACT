@@ -78,15 +78,16 @@ span {
     #0606dd,
     #0e86d0,
     #0ae65e,
-    #010213,
+    #fb4305,
     #1cd5ea,
-    #0b4045
+    #0b4045,
+    #0606dd
   );
   background-size: 400%;
   height: calc(100% + 5px);
   width: calc(100% + 5px);
   z-index: -1;
-  animation: change 60s linear infinite; /* Animation for changing the background gradient */
+  animation: change 65s linear infinite; /* Animation for changing the background gradient */
 }
 
 @keyframes change {
@@ -169,4 +170,14 @@ span {
   span {
     height: 18vh;
   }
+}
+.potatoes{
+  margin-top: 40px;
+  color: #0a9dae;
+  font-family: cursive;
+}
+.potatoesCentered{
+  justify-content: center;
+  align-items: center;
+  margin-left: 280px;
 }

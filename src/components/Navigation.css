@@ -72,6 +72,12 @@ nav {
   transition: 0.9s ease;
 }
 
+.active{
+  background: #0a9dae;
+  color: #010213;
+  box-shadow: 0 0 1rem #0a9dae;
+}
+
 @keyframes nav-link1-load {
   0% {
     transform: translateY(-100%);

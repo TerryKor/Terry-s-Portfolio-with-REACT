@@ -14,6 +14,7 @@ function About() {
           <TypeAnimation
             className="animation"
             sequence={[
+              
               1000,
               "Web Developer",
               1000,
@@ -21,6 +22,7 @@ function About() {
               1000,
               "Traveller",
               1000,
+
             ]}
             speed={{ type: "keyStrokeDelayInMs", value: 100 }}
             wrapper="span"
@@ -38,9 +40,10 @@ function About() {
           my extensive project management experience and web development
           background, I believe I bring a unique perspective to projects. Feel
           free to explore my portfolio to see examples of my work. In addition
-          to coding, I enjoy traveling, cooking, camping, and trading
-          cryptocurrencies.
+          to coding, I enjoy travelling, cooking, camping, and trading
+          cryptocurrencies. 
         </p>
+      
       </div>
 
       {/* Display the profile picture */}
