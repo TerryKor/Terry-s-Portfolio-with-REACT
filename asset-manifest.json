@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Terry-s-Portfolio-with-REACT/static/css/main.4e902465.css",
-    "main.js": "/Terry-s-Portfolio-with-REACT/static/js/main.fef215c9.js",
+    "main.css": "/Terry-s-Portfolio-with-REACT/static/css/main.f61ed516.css",
+    "main.js": "/Terry-s-Portfolio-with-REACT/static/js/main.1a5bc935.js",
     "static/media/javascript.png": "/Terry-s-Portfolio-with-REACT/static/media/javascript.4dbfab96f26688e0e3d6.png",
     "static/media/ticketMasterEvantPlanner.png": "/Terry-s-Portfolio-with-REACT/static/media/ticketMasterEvantPlanner.7f2c1d5078bf285dd9a7.png",
     "static/media/boxicons.svg": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
@@ -28,11 +28,11 @@
     "static/media/tailwind.png": "/Terry-s-Portfolio-with-REACT/static/media/tailwind.087f91401d142f1a4903.png",
     "static/media/logo.png": "/Terry-s-Portfolio-with-REACT/static/media/logo.b3802543d75de26756d4.png",
     "index.html": "/Terry-s-Portfolio-with-REACT/index.html",
-    "main.4e902465.css.map": "/Terry-s-Portfolio-with-REACT/static/css/main.4e902465.css.map",
-    "main.fef215c9.js.map": "/Terry-s-Portfolio-with-REACT/static/js/main.fef215c9.js.map"
+    "main.f61ed516.css.map": "/Terry-s-Portfolio-with-REACT/static/css/main.f61ed516.css.map",
+    "main.1a5bc935.js.map": "/Terry-s-Portfolio-with-REACT/static/js/main.1a5bc935.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e902465.css",
-    "static/js/main.fef215c9.js"
+    "static/css/main.f61ed516.css",
+    "static/js/main.1a5bc935.js"
   ]
 }
