@@ -8,13 +8,15 @@
   align-items: center;
   flex-wrap: wrap;
   margin-top: 10px;
+  animation: blowUpModal .9s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
 }
-/* 
-@media only screen and (max-width: 425px) {
-  .container {
-    width: fit-content;
-    margin: 0;
-    overflow: hidden;
+@keyframes blowUpModal {
+  0% {
+    transform:scale(0);
   }
-} */
+  100% {
+    transform:scale(1);
+  }
+}
+
 
