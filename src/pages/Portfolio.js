@@ -3,10 +3,10 @@ import "./Portfolio.css";
 import Project from "../components/Projects";
 import techblog from "../assets/images/techblog.png";
 import jate from "../assets/images/jate.png";
-import noteTaker from "../assets/images/noteTaker.png";
 import teamProfileGenerator from "../assets/images/teamProfileGenerator.png";
 import weatherForecast from "../assets/images/weatherforecast.png";
 import ticketMasterEventPlaner from "../assets/images/ticketMasterEvantPlanner.png";
+import project3 from "../assets/images/project3.png"
 
 function Projects() {
   return (
@@ -27,11 +27,11 @@ function Projects() {
         link="https://jate-by-terry.herokuapp.com/"
       />
       <Project
-        image={noteTaker}
-        title="Note Taker"
-        subtitle="Application is created to make and store quick notes and delete them once no longer needed"
-        github="https://github.com/TerryKor/Note-Taker"
-        link="https://note-taker-app-terry.herokuapp.com/"
+        image={project3}
+        title="Project3"
+        subtitle="Marketplace to buy or sell gently used kids stuff, help parents to save money and reduce waste"
+        github="https://github.com/ThriftKids/Tots2Treasures"
+        link="https://tots-2treasures.herokuapp.com/"
       />
       <Project
         image={teamProfileGenerator}
