@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Terry-s-Portfolio-with-REACT/static/css/main.f61ed516.css",
-    "main.js": "/Terry-s-Portfolio-with-REACT/static/js/main.1a5bc935.js",
+    "main.css": "/Terry-s-Portfolio-with-REACT/static/css/main.8e15bf3b.css",
+    "main.js": "/Terry-s-Portfolio-with-REACT/static/js/main.9a9f5d9f.js",
     "static/media/javascript.png": "/Terry-s-Portfolio-with-REACT/static/media/javascript.4dbfab96f26688e0e3d6.png",
+    "static/media/project3.png": "/Terry-s-Portfolio-with-REACT/static/media/project3.c249277d18e5a4803155.png",
     "static/media/ticketMasterEvantPlanner.png": "/Terry-s-Portfolio-with-REACT/static/media/ticketMasterEvantPlanner.7f2c1d5078bf285dd9a7.png",
     "static/media/boxicons.svg": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
     "static/media/css.png": "/Terry-s-Portfolio-with-REACT/static/media/css.554b21bdb2355d8113f4.png",
@@ -17,7 +18,6 @@
     "static/media/after.png": "/Terry-s-Portfolio-with-REACT/static/media/after.d2323def5eb81b672989.png",
     "static/media/mySql.png": "/Terry-s-Portfolio-with-REACT/static/media/mySql.4c87b42e761e60d8bc60.png",
     "static/media/Resume.pdf": "/Terry-s-Portfolio-with-REACT/static/media/Resume.27f7d4369d32f95b3929.pdf",
-    "static/media/noteTaker.png": "/Terry-s-Portfolio-with-REACT/static/media/noteTaker.acecd058858928ce22f7.png",
     "static/media/boxicons.woff2": "/Terry-s-Portfolio-with-REACT/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "static/media/github.png": "/Terry-s-Portfolio-with-REACT/static/media/github.3ec61b93854178c47369.png",
     "static/media/mongoDB.png": "/Terry-s-Portfolio-with-REACT/static/media/mongoDB.23127c4cdb7f95274892.png",
@@ -28,11 +28,11 @@
     "static/media/tailwind.png": "/Terry-s-Portfolio-with-REACT/static/media/tailwind.087f91401d142f1a4903.png",
     "static/media/logo.png": "/Terry-s-Portfolio-with-REACT/static/media/logo.b3802543d75de26756d4.png",
     "index.html": "/Terry-s-Portfolio-with-REACT/index.html",
-    "main.f61ed516.css.map": "/Terry-s-Portfolio-with-REACT/static/css/main.f61ed516.css.map",
-    "main.1a5bc935.js.map": "/Terry-s-Portfolio-with-REACT/static/js/main.1a5bc935.js.map"
+    "main.8e15bf3b.css.map": "/Terry-s-Portfolio-with-REACT/static/css/main.8e15bf3b.css.map",
+    "main.9a9f5d9f.js.map": "/Terry-s-Portfolio-with-REACT/static/js/main.9a9f5d9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f61ed516.css",
-    "static/js/main.1a5bc935.js"
+    "static/css/main.8e15bf3b.css",
+    "static/js/main.9a9f5d9f.js"
   ]
 }
